@@ -2,7 +2,7 @@
 
 const React = require('react');
 
-const ICOPropTypes = require('../prop_types/ico');
+//const ICOPropTypes = require('../prop_types/ico');
 
 const BulletPoints = React.createClass({
     propTypes: {

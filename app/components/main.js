@@ -12,7 +12,6 @@ const Main = React.createClass({
     },
 
     render: function () {
-        console.log(this.props.children);
         return (
             <div className='main-container'>
                 <ReactCSSTransitionGroup transitionName='appear' transitionEnterTimeout={500} transitionLeaveTimeout={500}>

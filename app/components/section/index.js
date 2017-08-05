@@ -2,7 +2,7 @@
 
 const React = require('react');
 
-const ICOPropTypes = require('../../prop_types/ico');
+//const ICOPropTypes = require('../../prop_types/ico');
 const About = require('./about');
 const Footer = require('./footer');
 
@@ -18,10 +18,7 @@ const Section = React.createClass({
     },
 
     render: function () {
-        const skillsContent = {
-            skills: this.props.skills,
-            languages: this.props.languages
-        };
+
 
         return (
             <div>
