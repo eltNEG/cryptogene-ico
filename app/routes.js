@@ -14,14 +14,8 @@ const browserHistory = ReactRouter.browserHistory;
 
 const Routes = {
     get: function (config) {
-        console.log(config);
         return (
-            <Router history={browserHistory}>
-                <Route path='/' component={Main}>
-                    <IndexRoute config={config} component={Home}/>
-                    <Route path='*' component={NotFound}/>
-                </Route>
-            </Router>
+          <di><h1>test</h1></di>
         );
     }
 };
