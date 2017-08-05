@@ -4,12 +4,12 @@ const React = require('react');
 
 const AmountRaised = React.createClass({
 
-        render: function () {
+    render: function () {
         return (
             <section id='amount-raised'>
-            <div className='row'>
-             <h1>{this.props.content}</h1>
-            </div>
+                <div className='row'>
+                    <h1>{this.props.content}</h1>
+                </div>
             </section>
         );
     }

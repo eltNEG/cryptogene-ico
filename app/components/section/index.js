@@ -6,7 +6,6 @@ const ICOPropTypes = require('../../prop_types/ico');
 const About = require('./about');
 const Footer = require('./footer');
 
-
 const AmountRaised = require('./amount_raised');
 const ContactSupport = require('./contact_support');
 const CountDown = require('./count_down');
@@ -16,7 +15,7 @@ const Team = require('./team');
 
 const Section = React.createClass({
     propTypes: {
-      },
+    },
 
     render: function () {
         const skillsContent = {

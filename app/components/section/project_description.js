@@ -7,9 +7,7 @@ const ProjectDescription = React.createClass({
     render: function () {
         return (
             <section id='project-description'>
-            <div className='row'>
-
-            </div>
+                <div className='row'/>
             </section>
         );
     }

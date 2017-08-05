@@ -13,7 +13,7 @@ const About = React.createClass({
         return (
             <section id='about'>
                 <div className='row'>
-            <h1>{this.props.content}</h1>
+                    <h1>{this.props.content}</h1>
                 </div>
             </section>
         );

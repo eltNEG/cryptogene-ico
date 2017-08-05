@@ -15,7 +15,7 @@ const browserHistory = ReactRouter.browserHistory;
 const Routes = {
     get: function (config) {
         return (
-          <di><h1>test</h1></di>
+            <di><h1>test</h1></di>
         );
     }
 };

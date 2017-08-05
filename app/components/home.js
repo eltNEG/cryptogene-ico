@@ -33,7 +33,7 @@ const Home = React.createClass({
             .get(this.props.route.config.contentPath)
             .end(function (error, response) {
                 return error ? error : this.setState({
-                       content: response.body
+                    content: response.body
                 });
             }.bind(this));
     },
