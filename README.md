@@ -1,4 +1,4 @@
-# bolaji
+# CGT ICO
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/suddi.github.io.svg?maxAge=2592000)](https://suddi.github.io)
 [![CircleCI](https://img.shields.io/circleci/project/github/suddi/suddi.github.io.svg)](https://circleci.com/gh/suddi/suddi.github.io)
