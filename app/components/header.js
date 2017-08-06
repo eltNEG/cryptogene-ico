@@ -1,6 +1,8 @@
 'use strict';
 
 const React = require('react');
+const ReactRouterDom = require('react-router-dom');
+const Link = ReactRouterDom.Link;
 
 const Header = React.createClass({
     getInitialState: function () {

@@ -24,38 +24,29 @@ const Home = React.createClass({
 
     getInitialState: function () {
         return {
-            content: false
+            content: true
         };
     },
 
     componentDidMount: function () {
-        return request
+    /*    return request
             .get(this.props.route.config.contentPath)
             .end(function (error, response) {
                 return error ? error : this.setState({
                     content: response.body
                 });
-            }.bind(this));
+            }.bind(this));*/
     },
 
     onLoad: function () {
         return (
             <div>
                 <Header>
-                    <Navigation navigation={this.props.route.config.navigation}/>
-                    <Banner about={this.state.content.about}/>
-
+                    <Navigation navigation={this.props.config.navigation}/>
+                    <Banner basics={this.state.content.basics}/>
                     <ScrollDown/>
                 </Header>
-                <Section
-                    about={this.state.content.about}
-                    projectdescription={this.state.content.projectdescription}
-                    countdown={this.state.content.countdown}
-                    amountraised={this.state.content.amountraised}
-                    contactsupport={this.state.content.contactsupport}
-                    team={this.state.content.team}
-                    footer={this.state.content.footer}
-                    references={this.state.content.references}/>
+
             </div>
         );
     },

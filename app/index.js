@@ -15,10 +15,9 @@ function getNavigation() {
     return {
         home: 'Home',
         about: 'About',
-        projectdescription: 'ProjectDescription',
-        roadmap: 'RoadMap',
-        countdown: 'CountDown',
-        amountraised: 'AmountRaised',
+        roadmap: 'Road Map',
+        countdown: 'Count Down',
+        amountraised: 'Amount Raised',
         team: 'Team'
     };
 }

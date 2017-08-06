@@ -14,14 +14,14 @@ const Banner = React.createClass({
             <div className='row banner'>
                 <div className='banner-text'>
                     <h1 className='responsive-headline'>
-                        {this.props.about.name}
+                        {'CGT ICO'}
                     </h1>
                     {/*
                         <h3>{this.props.basics.summary}</h3>
                     */}
                     <br/>
                     <hr/>
-                    <SocialMedia ulClass='social' profiles={this.props.about.profiles}/>
+                    {/*<SocialMedia ulClass='social' profiles={this.props.about.profiles}/>*/}
                 </div>
             </div>
         );
